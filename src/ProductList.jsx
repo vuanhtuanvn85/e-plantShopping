@@ -259,6 +259,7 @@ const handlePlantsClick = (e) => {
         ...prevState,
         [product.name]: true,
     }))
+    console.log(`addedToCard: ${JSON.stringify(addedToCard)}`);
   }
     return (
         <div>
